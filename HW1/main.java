@@ -30,7 +30,6 @@ public class main {
         Open_Addressing o = new Open_Addressing(10, 0, -1);
         System.out.println(o.probe(1, 0));
         System.out.println(o.probe(1, 3));
-
     }
 
     /**
