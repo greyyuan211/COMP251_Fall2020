@@ -4,7 +4,7 @@ public class Kruskal{
 
     public static WGraph kruskal(WGraph g){
 
-        /* Fill this method (The statement return null is here only to compile) */
+        /* Fill this method (The statement return null is here to compile) */
         WGraph aGraph = new WGraph();
         DisjointSets aSet = new DisjointSets(g.getNbNodes());
         ArrayList<Edge> sortedEdges = new ArrayList<>(g.listOfEdgesSorted());
